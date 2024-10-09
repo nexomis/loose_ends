@@ -1,0 +1,17 @@
+test	1	A	10	.^K...$.,^O,,,$,	=@=@==@=@=
+test	2	A	10	.^M...$.,^M,,,$,	=@=@==@=@=
+test	2	A	0	*	*
+test	3	A	10	.^J+2GG.+2GG$.,^J+2gg,+2gg$,	=@=@==@=@=
+test	4	A	10	.^M+2GG.+2GG$+2GG+2gg^M+2gg,+2gg$,	=@=@==@=@=
+test	5	A	8	^M+2GG.+2GG$+2GG+2gg^M+2gg,+2gg$	@=@==@=@
+test	6	A	10	.^M-2GG.-2GG$-2GG-2gg^M-2gg,-2gg$,	=@=@==@=@=
+test	7	A	8	^M-2GG.-2GG$-2GG-2gg^M-2gg,-2gg$	@=@==@=@
+test	8	A	4	^P..$^P,,$	@@@@
+test	1	A	10	.^K...$.,^O,,,$,	=@=@==@=@=
+test	2	A	10	.^M...$.,^M,,,$,	=@=@==@=@=
+test	1	A	6	...,,,	======
+test	2	A	6	...,,,	======
+test	2	A	0	*	*
+test	3	A	6	...,,,	======
+test	6	A	10	.^M-8GGGAAAAG.-8GGGAAAAG$-8GGGAAAAG-2gg^M-2gg,-2gg$,	=@=@==@=@=
+test	7	A	8	^M-8GGGAAAAG.-8GGGAAAAG$-8GGGAAAAG-2gg^M-2gg,-2gg$	@=@==@=@
