@@ -1,2 +1,9 @@
 /obj
 /loose_ends
+test/aligned*
+test/sorted*
+test/classic*
+test/*fq
+test/*bt2
+test/ref*
+

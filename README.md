@@ -17,3 +17,4 @@ make
 ```
 cat test/input.pileup | ./loose_ends
 ```
+
