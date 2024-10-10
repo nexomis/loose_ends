@@ -8,11 +8,11 @@
 
 class LooseEnds {
 
-private:
-    std::map<int, std::queue<int>> gap_buffer;
+   private:
+       std::map<int, std::queue<bool>> gap_buffer;
 
-public:
-    static void process_line(const std::string &line);
+   public:
+       void process_line(const std::string &line);
 };
 
 #endif // LOOSE_ENDS_H

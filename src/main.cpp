@@ -5,8 +5,9 @@
 
 int main() {
     std::string line;
+    LooseEnds le;
     while (std::getline(std::cin, line)) {
-        LooseEnds::process_line(line);
+        le.process_line(line);
     }
     return 0;
 }
