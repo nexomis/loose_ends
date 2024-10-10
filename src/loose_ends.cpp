@@ -123,15 +123,25 @@ void LooseEnds::process_line(const std::string &line) {
         gap_buffer.erase(position);
     }
     
-    if (coverage == 0) {
+    if (adjusted_coverage == 0) {
         output_bases = "*";
         output_qualities = "*";
     }
+
     if (base_qualities_length != index_qualities) {
         std::cerr << "quality end not reached" << std::endl;
     }
 
+    int output_qualities_length = output_qualities.length();
+
+    if ( output_qualities_length != adjusted_coverage) {
+        if (!(adjusted_coverage == 0 && output_bases == "*" && output_qualities == "*")) {
+            std::cerr << "output coverage issue" << std::endl;
+        }
+    }
+
     // Output the filtered line
     std::cout << chromosome << '\t' << position << '\t' << reference_base << '\t'
-              << coverage << '\t' << output_bases << '\t' << output_qualities << std::endl;
+              << adjusted_coverage << '\t' << output_bases << '\t' << output_qualities << std::endl;
+
 }
