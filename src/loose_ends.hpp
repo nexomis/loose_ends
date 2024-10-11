@@ -6,6 +6,8 @@
 #include <queue>
 #include <map>
 
+void CheckValidRef(const std::string& str);
+
 class LooseEnds {
 
    private:
